@@ -1,3 +1,7 @@
+react-three-fiber でスクリーンショットを撮る際にスクショする内容と画面に表示する内容を分けて管理する機能のデモ用プログラムです
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
