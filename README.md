@@ -1,5 +1,9 @@
 react-three-fiber でスクリーンショットを撮る際にスクショする内容と画面に表示する内容を分けて管理する機能のデモ用プログラムです
 
+
+https://github.com/ozw-sei/r3f-screenshot/assets/1571072/9d4fa78e-631f-4753-bd72-185b74eb888e
+
+
 ---
 
 # Getting Started with Create React App
