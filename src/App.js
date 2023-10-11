@@ -26,6 +26,7 @@ const Scene = forwardRef((_, ref) => {
   });
 
   const takeScreenshot = () => {
+    // スクショ取る前に本来のカメラとcaptureカメラの座標を同期する
     const rt = new THREE.WebGLRenderTarget(window.innerWidth * 0.5, window.innerHeight);
     gl.setRenderTarget(rt);
     gl.render(scene, captureCameraRef.current);
