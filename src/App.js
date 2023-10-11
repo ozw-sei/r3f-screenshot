@@ -11,6 +11,7 @@ const Scene = forwardRef((_, ref) => {
   const captureCameraRef = useRef();
 
   useEffect(() => {
+    // 本当はカメラをdisposeする必要がありそう
     captureCameraRef.current = camera.clone(true);
     captureCameraRef.current.layers.enable(BOX_LAYER);
     camera.layers.enable(BOX_LAYER);
